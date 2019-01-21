@@ -23,3 +23,9 @@ def list(playlist)
   end
 end
 
+def play(songs)
+  puts "Please enter a song name or number:"
+  user_answer = gets.chomp 
+  if user_answer ==
+end
+
