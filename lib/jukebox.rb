@@ -18,5 +18,6 @@ def help
 end
 
 def list(playlist)
-  playlist.each do
+  playlist.each_with_index do |song, i|
+    
 
