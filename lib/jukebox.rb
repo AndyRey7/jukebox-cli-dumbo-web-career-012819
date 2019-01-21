@@ -19,5 +19,7 @@ end
 
 def list(playlist)
   playlist.each_with_index do |song, i|
-    
+    puts "#{i+1}. #{song}"
+  end
+end
 
