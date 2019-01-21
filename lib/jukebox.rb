@@ -31,5 +31,11 @@ def play(songs)
   elsif songs.include(user_answer)
     puts "Playing #{user_answer}"
   else
+    puts "Invalid input, please try again"
+  end
+end
+
+def exit_jukebox
+  puts "Goodbye"
 end
 
