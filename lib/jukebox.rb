@@ -17,5 +17,6 @@ def help
   - exit : exits this program"
 end
 
-
+def list(playlist)
+  playlist.each do
 
