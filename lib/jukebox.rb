@@ -39,7 +39,8 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-while input
+def run
+  while input
     puts "Please enter a command:"
     input = gets.downcase.strip
     case input
