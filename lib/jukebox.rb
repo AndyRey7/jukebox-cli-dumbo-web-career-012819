@@ -28,6 +28,6 @@ def play(songs)
   user_answer = gets.chomp 
   if (1..9).to_a.include?(user_answer.to_i)
     puts "Playing #{songs[user_answer.to_i - 1]}"
-  elsif user_answer == songs.include(us)
+  elsif songs.include(user_answer)
 end
 
